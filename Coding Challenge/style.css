@@ -1,0 +1,102 @@
+/* 
+verde lim - 00dd00
+green bar - 1ec31e
+orange barra - f5b453
+red - be4141
+*/
+
+/* Impostare sfondo */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.black-square {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    border-radius: 2%;
+    margin: 2% auto;
+    padding-bottom: 10%;
+}
+
+/* Margini e allineamenti */
+
+header,
+nav {
+    text-align: center;
+}
+
+header,
+nav,
+main {
+    margin: 1% 10%;
+}
+
+main>section {
+    margin: 3% auto;
+}
+
+/* colori e grandezze HEADER */
+
+img {
+    width: 200px;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 30px;
+    color: #00dd00
+}
+
+/* stile NAV */
+
+nav {
+    background-color: #00dd00;
+}
+
+button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* colori e grandezze MAIN */
+
+.spot,
+.carica {
+    font-size: smaller;
+}
+
+.spot::before {
+    content: "\21A6";
+}
+
+.charging-bar {
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* differenziare 3 charcing bar */
+
+.orange {
+    background-color: #f5b453;
+    width: 45%;
+}
+
+.green {
+    background-color: #1ec31e;
+    width: 70%;
+}
+
+.red {
+    background-color: #be4141;
+    width: 20%;
+}
