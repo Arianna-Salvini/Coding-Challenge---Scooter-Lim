@@ -28,6 +28,10 @@ body {
     padding-bottom: 10%;
 }
 
+h3 {
+    display: inline;
+}
+
 /* Margini e allineamenti */
 
 header,
